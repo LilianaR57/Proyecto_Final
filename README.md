@@ -1,6 +1,6 @@
 Proyecto de Laravel 12<br>
 Docker, mysql, redis, apache, phpmyadmin<br>
-Requisitos: docker, docker-compose<br>
+Requisitos: docker, docker-compose, git<br>
 Configuración:<br>
 <br>
 # Terminal<br>
