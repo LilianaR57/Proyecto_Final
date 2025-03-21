@@ -1,3 +1,4 @@
+Lee estas instrucciones en modo "codigo"
 Proyecto de Laravel 12
 Docker, mysql, redis, apache, phpmyadmin
 Requisitos: docker, docker-compose
