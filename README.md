@@ -27,3 +27,7 @@ Configuración:<br>
   php artisan migrate<br>
 <br>
 ve a http://localhost:8080/<br>
+# git<br>
+  Para seguir trabajando desde tu repositorio:<br>
+  git remote set-url origin https://github.com/usuario/nuevo-repo.git<br>
+  git push -u origin main<br>
