@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: laravel_app
+    container_name: pfinal_app
     ports:
       - "8080:80"
     volumes:
@@ -18,7 +18,7 @@ services:
 
   mysql:
     image: mysql:8.0
-    container_name: laravel_mysql
+    container_name: pfinal_mysql
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: laravel
@@ -34,7 +34,7 @@ services:
 
   redis:
     image: redis:alpine
-    container_name: laravel_redis
+    container_name: pfinal_redis
     ports:
       - "6379:6379"
     networks:
@@ -42,7 +42,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: laravel_phpmyadmin
+    container_name: pfinal_phpmyadmin
     restart: always
     ports:
       - "8081:80"
