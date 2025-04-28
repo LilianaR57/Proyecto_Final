@@ -18,6 +18,21 @@ class UsersController extends Controller
         return view('modules.users.index', compact('users'));
     }
 
+    public function firstUser()
+    {
+        User::create([
+            'name' => 'Liliana Reyes',
+            'email' => 'jessica.reyes@pjedomex.gob.mx',
+            'password' => Hash::make('123456'),
+            'photo' => '',
+            'status' => 1,
+            'id_branch' => 0,
+            'role' => 'Administrador',
+            'last_login' => '',
+        ]);
+        return 'Usuario creado';
+    }
+
     /**
      * Show the form for creating a new resource.
      */
